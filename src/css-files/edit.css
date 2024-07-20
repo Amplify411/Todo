@@ -1,0 +1,102 @@
+*{
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  }
+
+.edit-bg{
+    height: 1000px;
+    width: 5000px;
+    background-color: rgb(149, 149, 149);
+    position: absolute;
+}
+
+.edit{
+    background-color: white !important;
+    margin-top: 100px;
+    margin-left: 75px;
+    padding: 75px;
+    border-radius: 5px;
+    width: 500px;
+    display: flex !important;
+    flex-direction: column;
+}
+
+.edit textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 15px;
+    font-family: inherit;
+    resize: none;
+}
+
+.edit-buttons {
+    display:inline-block;
+    padding-left: 55%;
+    
+    
+}
+
+ #save{
+    margin-right: 5px;
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: white;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #767a81;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    
+}
+
+#close{
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #767a81;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}

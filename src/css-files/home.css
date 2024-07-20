@@ -1,0 +1,67 @@
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .todo h2{
+    background-color: #2f80ed;
+    color: white;
+    padding: 5px;
+  }
+  
+  .actions{
+    display: inline-block;
+  }
+  
+  .add-task{
+    display: flex;
+    justify-content: center;
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #2f80ed;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    width: 175px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  
+  .tasks{
+    background-color: rgb(106, 184, 226);
+    height: auto;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  .tasks h3{
+    color: black !important;;
+    padding: 5px;
+  }
