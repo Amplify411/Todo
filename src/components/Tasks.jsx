@@ -1,4 +1,4 @@
-
+import "../css-files/home.css";
 function Tasks(props){
     return(
         <div className="tasks">
@@ -11,7 +11,7 @@ function Tasks(props){
                 <button>View Details</button>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Tasks;

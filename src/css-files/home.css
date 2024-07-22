@@ -54,7 +54,7 @@
     background-color: rgb(106, 184, 226);
     height: auto;
     width: 250px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     margin-top: 15px;
     padding: 10px;
@@ -65,3 +65,26 @@
     color: black !important;;
     padding: 5px;
   }
+
+   .tasks button{
+    appearance: button;
+    background-color: #1652F0;
+    border: 1px solid #1652F0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 2px;
+    font-size: 14px;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 12px 16px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+   }
