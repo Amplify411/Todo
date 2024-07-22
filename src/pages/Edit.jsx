@@ -1,6 +1,7 @@
 import "../css-files/edit.css";
-
+import { useNavigate } from "react-router-dom";
 function Edit(){
+    const navigate = useNavigate();
     return(
         <div className="edit-bg">
             <div className="edit">
@@ -11,7 +12,7 @@ function Edit(){
                 <textarea placeholder="Enter Description" />
                 <div className="edit-buttons">
                     <button id="save">Save</button>
-                    <button id="close">Close</button>
+                    <button id="close" onClick={()=>{navigate(-1)}} >Close</button>
                 </div>
             </div>
 

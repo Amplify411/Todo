@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css-files/home.css";
 function Tasks(props){
     return(
@@ -7,8 +8,8 @@ function Tasks(props){
             <p>{props.timestamp}</p>
             <div className="tasks-buttons">
                 <button>Delete</button>
-                <button>Edit</button>
-                <button>View Details</button>
+                <button><Link to="/edit">Edit</Link></button>
+                <button><Link to="/details">Detail</Link></button>
             </div>
         </div>
     ) 

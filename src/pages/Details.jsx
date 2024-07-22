@@ -1,6 +1,8 @@
 import "../css-files/details.css";
-
+import { useNavigate } from "react-router-dom";
 function Details(){
+
+    const navigate = useNavigate();
     
     return(
         <div className="details-bg">
@@ -10,7 +12,7 @@ function Details(){
                 <p>description</p>
                 <p>created time</p>
                 <div className="details-button">
-                    <button id="close">Close</button>
+                    <button id="close" onClick={()=>{navigate(-1)}} >Close</button>
                 </div>
             </div>
         </div>
